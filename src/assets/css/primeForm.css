@@ -1,0 +1,39 @@
+
+  
+  @font-face {
+    font-family: 'PrimeformProSemiBold';
+    src: url('../fonts/PrimeformProDemo-SemiBold.woff2') format('woff2'),
+        url('../fonts/PrimeformProDemo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PrimeformProRegular';
+    src: url('../fonts/PrimeformProDemo-Regular.woff2') format('woff2'),
+        url('../fonts/PrimeformProDemo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PrimeformProLight';
+    src: url('../fonts/PrimeformProDemo-Light.woff2') format('woff2'),
+        url('../fonts/PrimeformProDemo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PrimeformProMedium';
+    src: url('../fonts/PrimeformProDemo-Medium.woff2') format('woff2'),
+        url('../fonts/PrimeformProDemo-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  
