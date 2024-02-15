@@ -38,7 +38,7 @@ const ContactUs = () => {
                             <Title className="font">
                                 Get connected with us
                             </Title>
-                            <Description>Reach out and let's turn your ideas into reality</Description>
+                            <Description>Reach out and let&apos;s turn your ideas into reality</Description>
                         </div>
                         <NumberMail>
                             <Number>

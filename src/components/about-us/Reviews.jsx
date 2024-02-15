@@ -26,25 +26,25 @@ export default function Reviews() {
 
     const Review = [
         {
-            text: "Our experience with the employee management service has been nothing short of exceptional. The platform's user-friendly interface streamlines all aspects of HR, from onboarding to performance tracking",
+            text: "Our experience with the employee management service has been nothing short of exceptional. The platform&apos;s user-friendly interface streamlines all aspects of HR, from onboarding to performance tracking",
             image: "/images/Review-profile-image.svg",
             name: "Aiswarya haridas",
             designation: "UI UX designer"
         },
         {
-            text: "Our experience with the employee management service has been nothing short of exceptional. The platform's user-friendly interface streamlines all aspects of HR, from onboarding to performance tracking",
+            text: "Our experience with the employee management service has been nothing short of exceptional. The platform&apos;s user-friendly interface streamlines all aspects of HR, from onboarding to performance tracking",
             image: "/images/Review-profile-image.svg",
             name: "Aiswarya haridas",
             designation: "UI UX designer"
         },
         {
-            text: "Our experience with the employee management service has been nothing short of exceptional. The platform's user-friendly interface streamlines all aspects of HR, from onboarding to performance tracking",
+            text: "Our experience with the employee management service has been nothing short of exceptional. The platform&apos;s user-friendly interface streamlines all aspects of HR, from onboarding to performance tracking",
             image: "/images/Review-profile-image.svg",
             name: "Aiswarya haridas",
             designation: "UI UX designer"
         },
         {
-            text: "Our experience with the employee management service has been nothing short of exceptional. The platform's user-friendly interface streamlines all aspects of HR, from onboarding to performance tracking",
+            text: "Our experience with the employee management service has been nothing short of exceptional. The platform&apos;s user-friendly interface streamlines all aspects of HR, from onboarding to performance tracking",
             image: "/images/Review-profile-image.svg",
             name: "Aiswarya haridas",
             designation: "UI UX designer"
@@ -69,7 +69,7 @@ export default function Reviews() {
                     />
                 </Title>
                 <Description>
-                    Hear what real clients say! Discover the impact we've made -
+                    Hear what real clients say! Discover the impact we&apos;ve made -
                     read testimonials now.
                 </Description>
                 <Buttons>
