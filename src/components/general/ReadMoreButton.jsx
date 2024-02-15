@@ -1,13 +1,21 @@
 "use client"
 
+import Image from "next/image"
+
 import styled from "styled-components";
+
 
 export default function ReadMoreButton() {
     return (
         <Container>
             Read More
             <Arrow>
-                <img src="/icons/Read-More-Arrow.svg" alt="Right-Arrow" />
+                <Image
+                    width={24}
+                    height={24}
+                    src="/icons/Read-More-Arrow.svg"
+                    alt="Right-Arrow"
+                />
             </Arrow>
         </Container>
     );
