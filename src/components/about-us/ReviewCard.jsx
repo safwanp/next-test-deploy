@@ -1,5 +1,10 @@
+"use client"
+
+import Image from "next/image"
+
 import React from "react";
 import styled from "styled-components";
+
 
 export default function ReviewCard({ text, image, name, designation }) {
     return (
@@ -9,7 +14,7 @@ export default function ReviewCard({ text, image, name, designation }) {
                 <Text>{text}</Text>
                 <Profile>
                     <ProfileImage>
-                        <img src={image} alt="" />
+                        <Image width={24} height={24} src={image} alt="" />
                     </ProfileImage>
                     <ProfileInformation>
                         <Name>{name}</Name>
@@ -85,6 +90,12 @@ const Profile = styled.div`
 const ProfileImage = styled.div`
     width: 50px;
     border-radius: 50px;
+
+    img{
+        width: 100% !important;
+        height: auto !important;
+    }
+
     @media all and (max-width: 768px) {
         width: 40px;
     }

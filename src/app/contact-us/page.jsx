@@ -1,5 +1,7 @@
 "use client"
 
+import Image from "next/image"
+
 import { ErrorMessage, Field, Form, Formik } from 'formik';
 import * as Yup from "yup"
 import React from 'react'
@@ -24,7 +26,6 @@ const ContactUs = () => {
     });
 
     const handleSubmit = (values, { resetForm }) => {
-        console.log(values);
         resetForm();
     };
 
@@ -42,13 +43,23 @@ const ContactUs = () => {
                         <NumberMail>
                             <Number>
                                 <div className="iconFrame">
-                                    <img src="/icons/phone.svg" alt="phone" />
+                                    <Image
+                                        width={24}
+                                        height={24}
+                                        src="/icons/phone.svg"
+                                        alt="phone"
+                                    />
                                 </div>
                                 <Text>+971 56 201 0475</Text>
                             </Number>
                             <Mail>
                                 <div className="iconFrame">
-                                    <img src="/icons/mail.svg" alt="Mail" />
+                                    <Image
+                                        width={24}
+                                        height={24}
+                                        src="/icons/mail.svg"
+                                        alt="Mail"
+                                    />
                                 </div>
                                 <Text>info@arabdreams.biz</Text>
                             </Mail>
@@ -136,7 +147,7 @@ export default ContactUs
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("/images/contact-us-background.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -266,6 +277,13 @@ const Number = styled.div`
     gap: 12px;
     margin-bottom: 10px;
     .iconFrame {
+        width: 28px;
+
+        img{
+            width: 100% !important;
+            height: auto !important;
+        }
+
         @media all and (max-width: 1280px) {
             width: 25px;        
         }
@@ -280,6 +298,13 @@ const Mail = styled.div`
     align-items: center;
     gap: 12px;
     .iconFrame {
+        width: 28px;
+
+        img{
+            width: 100% !important;
+            height: auto !important;
+        }
+
         @media all and (max-width: 1280px) {
 
             width: 25px;

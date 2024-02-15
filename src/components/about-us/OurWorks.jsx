@@ -1,5 +1,7 @@
 "use client"
 
+import Image from "next/image"
+
 import React from "react";
 import styled from "styled-components";
 import CountUp from "react-countup";
@@ -39,7 +41,12 @@ export default function Ourworks() {
                 {Works.map(({ icon, count, title }, i) => (
                     <Card key={i}>
                         <Icon>
-                            <img src={icon} alt="" />
+                            <Image
+                                width={24}
+                                height={24}
+                                src={icon}
+                                alt=""
+                            />
                         </Icon>
 
                         <Count>
@@ -145,6 +152,12 @@ const Card = styled.div`
 const Icon = styled.div`
     width: 45px;
     margin-bottom: 15px;
+
+    img{
+        width: 100% !important;
+        height: auto !important;
+    }
+
     @media all and (max-width: 1280px) {
         width: 35px;
         margin-bottom: 10px;
